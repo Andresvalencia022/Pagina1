@@ -16,6 +16,7 @@ body{
 .contenedor{
 background-color: rgba(22, 22, 22, 0.603);
 width: 87%;
+overflow: hidden;
 margin: 10px auto;
 padding: 18px;
 }
@@ -76,7 +77,6 @@ text-shadow: -5px -5px 8px rgba(150, 142, 150, 1);
     color:rgb(2, 62, 66);
     
  }
-
   #p2{
     text-shadow: -5px -5px 8px rgba(150, 142, 150, 1);
  }
@@ -88,6 +88,66 @@ text-shadow: -5px -5px 8px rgba(150, 142, 150, 1);
      
      margin: auto;
  }
+
+ .pop{
+    width: 90% ;
+    height: 90%;
+    background-color: cornsilk; 
+    border:solid rgb(90, 212, 19); /*bolverlo estatico*/ 
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    z-index: 10;
+    top: 4%; /*lo que quiere decir ese top es que quite todo el top y me lo coloque al rpincipio*/
+    left: 4%;   
+    display:flex ;
+   flex-direction: row;
+   align-items:center;
+   justify-content: space-evenly;
+ }
+
+ .pop>p{
+width: 45%;
+padding: 20px;
+border-bottom: rgb(252, 92, 0);
+background-color: lavender;
+ }
+
+ .imgpop{
+     width: 25%;
+
+ }
+ #chekpop{
+    position:fixed;
+     z-index: 20;
+     top: 0%;
+ }
+ #chekpop:checked ~.pop{
+    display: none;
+ }
+ #chekpop:checked ~.close{
+    display: none;
+ }
+ #chekpop{
+    display: none;
+ }
+ .close{
+    background-color: lavender;
+    padding-left:8px ;
+    padding-right:8px;
+    padding-bottom:4px;
+    border-radius: 100%;
+    cursor: pointer;
+    position:fixed;
+     z-index: 20;
+     font-weight:bold;
+     top: 1.6%;
+     left: 93.2%;
+     font-size: 30px 
+     
+     
+ }
+
 /*---------                  ----------*/
 
  @media screen and (max-width:800px) { /*quiere dercir que En pantallas de 800 px o menos, establezco todo lo que tengo denntro del media screen */
