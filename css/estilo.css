@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color:#556;
+    background-color:rgb(50, 243, 24);
     background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
     linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
     linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
@@ -88,3 +88,211 @@ text-shadow: -5px -5px 8px rgba(150, 142, 150, 1);
      
      margin: auto;
  }
+/*---------                  ----------*/
+
+ @media screen and (max-width:800px) { /*quiere dercir que En pantallas de 800 px o menos, establezco todo lo que tengo denntro del media screen */
+    body{
+        background-color: rgb(255, 60, 0);
+  
+    }
+    .contenedor{
+        background-color: rgba(22, 22, 22, 0.603);
+      
+    
+    }
+
+    .caja{
+        background-color: cornsilk;
+        padding: 20px; 
+        border:solid rgb(255, 127, 7);
+        overflow: hidden; /*bolverlo estatico*/ 
+        margin-top: 5px;
+        border-radius: 15px;
+        background-color: #eee;   
+    
+    }
+    .articulo_1{
+        margin-top: 4px;
+        width: 40%;
+        height: 343px;
+        font-size: 16px;/*tamaño de letra*/
+        padding: 10px;
+        color: rgb(228, 166, 10);
+        border: solid ;
+        float: left;
+       }
+       .articulo_2{
+           margin-top: 4px;
+           width: 40%;
+           height: 343px;
+           padding: 10px;
+           font-size: 16px;/*tamaño de letra*/
+           color: rgb(228, 166, 10);
+           border: solid;
+           float: left;
+           margin-left: 10px  ;
+       
+          }
+       
+       .articulo_3{
+       padding: 4px;
+       margin: 3px;
+       font-size: 16px;
+       padding: 4px;
+       border-top: black solid 1px;
+       border-bottom:solid 1px;
+       }
+
+       .titulos{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px ;
+        
+     }
+     .mapa{
+        padding: 1px;
+        position: relative;
+     }
+     .mapa iframe{
+         position: relative;
+         width: 100%;
+         height: 100%;
+     }
+ }
+ 
+/*
+_____________________________//_____________________
+ 
+*/
+ @media screen and (max-width:583px){
+    body{
+        background-color: rgb(255, 60, 0);
+  
+    }
+    .contenedor{
+        background-color: rgba(22, 22, 22, 0.603);
+      
+    
+    }
+
+    .caja{
+        background-color: cornsilk;
+        padding: 20px; 
+        border:solid rgb(255, 127, 7);
+        overflow: hidden; /*bolverlo estatico*/ 
+        margin-top: 5px;
+        border-radius: 15px;
+        background-color: #eee;   
+    
+    }
+    .articulo_1{
+        margin-top: 4px;
+        width: 40%;
+        height: 343px;
+        font-size: 11px;/*tamaño de letra*/
+        padding: 10px;
+        color: rgb(228, 166, 10);
+        border: solid ;
+        float: left;
+       }
+       .articulo_2{
+           margin-top: 4px;
+           width: 40%;
+           height: 343px;
+           padding: 10px;
+           font-size: 11px;/*tamaño de letra*/
+           color: rgb(228, 166, 10);
+           border: solid;
+           float: left;
+           margin-left: 10px  ;
+       
+          }
+       
+       .articulo_3{
+       padding: 4px;
+       margin: 3px;
+       font-size: 11px;
+       padding: 4px;
+       border-top: black solid 1px;
+       border-bottom:solid 1px;
+       }
+
+       .titulos{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px ;
+        
+     }
+     .mapa{
+        padding: 1px;
+        position: relative;
+     }
+     .mapa iframe{
+         position: relative;
+         width: 100%;
+         height: 100%;
+     }
+ }
+ /*
+_____________________________//_____________________
+ 
+*/
+ @media screen and (max-width:460px){
+    .caja{
+        background-color: cornsilk;
+        padding: 20px; 
+        border:solid rgb(255, 127, 7); 
+        margin-top: 5px;
+        border-radius: 15px;
+        background-color: #eee;   
+    
+    }
+    .articulo_1{
+        margin-top: 4px;
+        width: 90%;
+        height: 200px;
+        font-size: 11px;/*tamaño de letra*/
+        padding: 10px;
+        color: rgb(228, 166, 10);
+        border: solid ;
+    
+       }
+       .articulo_2{
+           margin-top: 4px;
+           width: 90%;
+           height: 200px;
+           margin-left: 0px;
+           padding: 10px;
+           font-size: 11px;/*tamaño de letra*/
+           color: rgb(228, 166, 10);
+           border: solid;
+          
+        
+       
+          }
+       
+       .articulo_3{
+       padding: 4px;
+       margin: 3px;
+       font-size: 11px;
+       padding: 4px;
+       border-top: black solid 1px;
+       border-bottom:solid 1px;
+       }
+
+       .titulos{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px ;
+        
+     }
+     .mapa{
+        padding: 1px;
+        position: relative;
+     }
+     .mapa iframe{
+         position: relative;
+         width: 100%;
+         height: 100%;
+     }
+
+
+ }
+ 
